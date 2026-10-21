@@ -1,0 +1,20 @@
+{
+  "1": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "example.png"
+    }
+  },
+  "2": {
+    "class_type": "SaveJPEG",
+    "inputs": {
+      "images": ["1", 0],
+      "quality": 95,
+      "filename_prefix": "%yy%mm%dd_%hh%mi%ss",
+      "background": "white",
+      "progressive": false,
+      "extension": "jpg",
+      "preview": true
+    }
+  }
+}
