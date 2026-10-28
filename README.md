@@ -24,7 +24,7 @@ ComfyUI 工作流内部图像是张量（IMAGE），本身没有“PNG / JPEG”
 Load Image  →  SaveJPEG
 ```
 
-节点在节点库中的位置：`image` → `保存为 JPEG`（搜索 `SaveJPEG` 或 `JPEG` 亦可）。
+节点在节点库中的位置：`image` → `Save as JPEG`（搜索 `SaveJPEG` 或 `JPEG` 亦可）。
 
 ### 参数
 
